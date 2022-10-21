@@ -18,7 +18,7 @@ Customer Api’s - 
 Order Api’s - 
 1. @GetMapping("/order") - Read all orders data. 
 2. @GetMapping("/order/{id}") - Read order of a particular order id.
-3. @GetMapping("orders/getOrder/{id}") - Gives order details along with bill for that particular order id. 
+3. @GetMapping("orders/getOrder/{id}") - Gives order details along with price for that particular order id. 
 4. @PostMapping("/order") - Create a new order record. 
 5. @PutMapping("/order/{id}") - Update order.
 6. @DeleteMapping("/order") - Delete all orders.
